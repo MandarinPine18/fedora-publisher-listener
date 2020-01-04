@@ -31,13 +31,13 @@ Included is a configuration file. Copy it to the directory /etc/fedora-messaging
 Enter the repository directory and run the listener.
 ```sh
     cd /this/is/a/path/fedora-publisher-listener
-    python3 -m consume.py
+    python3 consume.py
 ```
 
 In a new terminal window, enter the same directory and run the publisher.
 ```sh
     cd /this/is/a/path/fedora-publisher-listener
-    python3 -m publish.py
+    python3 publish.py
 ```
 
 Included is an mp4 video showing the sctipts and RabbitMQ in action.
